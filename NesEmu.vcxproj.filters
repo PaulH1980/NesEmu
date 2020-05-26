@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Nes">
+      <UniqueIdentifier>{54953932-eaed-480b-beff-fcebb93f4cdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Nes">
+      <UniqueIdentifier>{f05f6fa6-c056-4de3-86bd-86afaebbbad3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{098d1ff9-f931-4d99-a5fb-e2ae553f48fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{5bb32d4a-fb4e-4e69-8417-15c88708b49b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main">
+      <UniqueIdentifier>{3db6c56e-4e14-4f2d-a562-98c5fe5e7a07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\shared">
+      <UniqueIdentifier>{a8dfdde3-583b-4870-bb92-3afabae6f006}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="6502.h">
+      <Filter>Header Files\Nes</Filter>
+    </ClInclude>
+    <ClInclude Include="6502_Instruction.h">
+      <Filter>Header Files\Nes</Filter>
+    </ClInclude>
+    <ClInclude Include="NesRom.h">
+      <Filter>Header Files\Nes</Filter>
+    </ClInclude>
+    <ClInclude Include="PPU.h">
+      <Filter>Header Files\Nes</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBus.h">
+      <Filter>Header Files\Nes</Filter>
+    </ClInclude>
+    <ClInclude Include="NesRam.h">
+      <Filter>Header Files\Nes</Filter>
+    </ClInclude>
+    <ClInclude Include="BusDevice.h">
+      <Filter>Header Files\Nes</Filter>
+    </ClInclude>
+    <ClInclude Include="iMapper.h">
+      <Filter>Header Files\Nes</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrame.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Shared.h">
+      <Filter>Header Files\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="Mappers.h">
+      <Filter>Header Files\Nes</Filter>
+    </ClInclude>
+    <ClInclude Include="NesJoyPad.h">
+      <Filter>Header Files\Nes</Filter>
+    </ClInclude>
+    <ClInclude Include="Nes.h">
+      <Filter>Header Files\Nes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="6502.cpp">
+      <Filter>Source Files\Nes</Filter>
+    </ClCompile>
+    <ClCompile Include="6502_Instruction.cpp">
+      <Filter>Source Files\Nes</Filter>
+    </ClCompile>
+    <ClCompile Include="NesRom.cpp">
+      <Filter>Source Files\Nes</Filter>
+    </ClCompile>
+    <ClCompile Include="PPU.cpp">
+      <Filter>Source Files\Nes</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBus.cpp">
+      <Filter>Source Files\Nes</Filter>
+    </ClCompile>
+    <ClCompile Include="NesRam.cpp">
+      <Filter>Source Files\Nes</Filter>
+    </ClCompile>
+    <ClCompile Include="BusDevice.cpp">
+      <Filter>Source Files\Nes</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrame.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Mappers.cpp">
+      <Filter>Source Files\Nes</Filter>
+    </ClCompile>
+    <ClCompile Include="NesJoyPad.cpp">
+      <Filter>Source Files\Nes</Filter>
+    </ClCompile>
+    <ClCompile Include="Nes.cpp">
+      <Filter>Source Files\Nes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="InstructionSet.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="TestApp.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="OpenSans-Bold.ttf">
+      <Filter>Resource Files</Filter>
+    </Font>
+  </ItemGroup>
+</Project>
